@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'benzin-bold'; /* Имя шрифта */
+  src: url('../benzin-bold.otf') format('otf');
+  /* Путь к файлу шрифта */
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+    background-color: #131313;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.btn {
+    display: flex;
+    width: 160px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: #3805f2;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    a {
+        margin:20px ;
+    }
+    color: white;
+    nav {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 30px;
+    }
+}
+main {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_1 {
+    background-color: white;
+    width: 1340px;
+    height: 500px;
+}
+.card_2 {
+    background-color: white;
+    width: 427px;
+    height: 282px;
+}
+.card_3 {
+    background-color: #3805f2;
+    width: 427px;
+    height: 189px;
+}
+.card_4 {
+    display: flex;
+    background-color: grey;
+    background-repeat: no-repeat;
+    width: 899px;
+    height: 485px;
+}
+.card_rad {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    border-radius: 55px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 16px;
+}
+.cards {
+    width: 1340px;
+    height: 1000px;
+    flex-direction: column;
+    align-items: end;
+    align-content: flex-start;
+}
+.cards_second {
+    display: flex;
+}
+.cards_mini {
+    flex-direction: column;
+}
+.circle_mini {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: black;
+}
+.circle {
+    background-color: #3805f2;
+    width: 220px;
+    height: 220px;
+    border-radius: 50px;
+    color: white;
+}
+.circles {
+    justify-content: center;
+    align-items: center;
+    a {
+        font-size: 16px;
+    }
+}
+.crcls {
+    flex-direction: row;
+}
+.logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 27px;
+}
